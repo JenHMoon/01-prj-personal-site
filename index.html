@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jihyeon's Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"> 🌕 Moon's Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="section home-section">
+    <div class="container">
+      <h1> Take a step further from yesterday! </h1>
+      <p> My fundamental goal is to enhance interactions between human and techonolgy not only in terms of functional aspects but that of human experiences. </p>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section">
+  <img class="about-img-fixed" src="img/self_JM.png" alt="Profile photo">
+    <div class="container">
+      <h2>About</h2>
+      <p>This is Jihyeon/Jen Moon. I am currently a senior at University of Utah, majoring in psychology and minoring in information systems. My emphasis is on human factors, particularly interested in interactions among human behaviors, systems, and technology. My further pursuit on career contribution is elevating user interace (UI) and user experience(UX).</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-list">
+        <div class="project-item">
+          <h3>Human Factors</h3>
+          <img src="img/humanfactors.png" alt="Human Factors" class="project-icon">
+          <ul>
+            <li>Bank workspace redesign</li>
+            <li>Kiosk redesign</li>
+            <li>UTA bus route redesign</li>
+          </ul>
+        </div>
+        <div class="project-item">
+          <h3>Information Systems</h3>
+          <img src="img/infos.png" alt="Information Systems" class="project-icon">
+          <ul>
+            <li>Flight Database analysis</li>
+            <li>Campus Parking Management System (In-progress)</li>
+          </ul>
+        </div>
+        <!-- 필요에 따라 프로젝트를 추가하세요 -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+  <div style="display: flex; align-items: center; justify-content: center; gap: 16px; margin-bottom: 5px;">
+        <h2 style="margin: 0;">Contact</h2>
+        <a href="mailto:u1381576@utah.edu">
+          <img src="img/mail.png" alt="Email" style="width:34px; height:34px;">
+        </a>
+        <a href="https://www.linkedin.com/in/jen-moon-a372a1234/" target="_blank">
+          <img src="img/linkedin.png" alt="LinkedIn" style="width:29px; height:29px;">
+        </a>
+      </div>
+    </div>
+  </section>
+
+
 </body>
 </html>
